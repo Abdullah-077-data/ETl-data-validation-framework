@@ -1,3 +1,3 @@
 SELECT *
-FROM employees
-WHERE emp_name IS NULL;
+FROM customers
+WHERE customer_name IS NULL;

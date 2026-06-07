@@ -1,2 +1,34 @@
-# ETl-data-validation-framework
-An ETL Data Validation Framework built with Python and SQL to automate source-to-target validation, data quality testing, and ETL verification processes.
+# ETL Data Validation Framework
+
+## Overview
+
+This project demonstrates ETL Testing validations using Python and SQL.
+
+## Validations Covered
+
+- Record Count Validation
+- Null Validation
+- Duplicate Validation
+- Source-to-Target Validation
+- Data Quality Validation
+
+## Technologies
+
+- Python
+- SQL
+- Pandas
+- GitHub
+
+## Project Structure
+
+```text
+scripts/
+source_data/
+target_data/
+README.md
+```
+
+## Author
+
+Abdulla
+ETL Tester | SQL | Python | Data Warehouse Testing

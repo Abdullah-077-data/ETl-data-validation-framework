@@ -1,5 +1,5 @@
-SELECT emp_id,
+SELECT customer_id,
        COUNT(*)
-FROM employees
-GROUP BY emp_id
+FROM customers
+GROUP BY customer_id
 HAVING COUNT(*) > 1;

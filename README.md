@@ -2,48 +2,76 @@
 
 ## Overview
 
-This project demonstrates ETL Testing validations using Python and SQL.
+This project demonstrates ETL Testing and Data Validation using Python, SQL, and Pandas. It validates data between source and target systems to ensure data quality and accuracy after ETL processing.
 
-## Validations Covered
+## Features
 
-- Record Count Validation
-- Null Validation
-- Duplicate Validation
-- Source-to-Target Validation
-- Data Quality Validation
+* Record Count Validation
+* Null Validation
+* Duplicate Validation
+* Source-to-Target Data Comparison
+* Incremental Load Validation
+* Data Quality Checks
 
-## Technologies
+## Technologies Used
 
-- Python
-- SQL
-- Pandas
-- GitHub
+* Python
+* SQL (Oracle SQL)
+* Pandas
+* Git
+* GitHub
 
 ## Project Structure
 
-```text
-scripts/
-source_data/
-target_data/
-README.md
-```
+ETL-data-validation-framework
 
-## Validations Implemented
+├── scripts
+│   ├── record_count_validation.py
+│   ├── null_validation.py
+│   ├── duplicate_validation.py
+│   └── data_comparison.py
 
-- Record Count Validation
-- Null Validation
-- Duplicate Validation
-- Source-to-Target Data Comparison
+├── sql
+│   ├── duplicate_check.sql
+│   ├── null_check.sql
+│   ├── record_count_validation.sql
+│   ├── incremental_load.sql
+│   ├── city_wise_customer_count.sql
+│   └── unique_customer_validation.sql
 
-## Future Enhancements
+├── source_data
+│   └── customers_source.csv
 
-- Incremental Load Validation
-- Data Type Validation
-- Primary Key Validation
-- HTML Reporting
-- PyTest Integration
+├── target_data
+│   └── customers_target.csv
+
+├── requirements.txt
+├── README.md
+└── .gitignore
+
+
+## Sample Validations
+
+### Record Count Validation
+Validates that source and target tables contain the same number of records.
+
+### Null Validation
+Checks for unexpected NULL values in critical columns.
+
+### Duplicate Validation
+Identifies duplicate customer records.
+
+### Incremental Load Validation
+Validates newly loaded records based on the last updated date.
+
+### City-wise Customer Count
+Calculates the number of customers in each city.
+
+### Unique Customer Validation
+Validates that customer IDs are unique and identifies duplicate IDs.
 
 ## Author
 
-Abdulla
+Abdulla As
+
 ETL Tester | SQL | Python | Data Warehouse Testing

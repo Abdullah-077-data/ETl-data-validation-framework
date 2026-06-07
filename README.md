@@ -28,6 +28,21 @@ target_data/
 README.md
 ```
 
+## Validations Implemented
+
+- Record Count Validation
+- Null Validation
+- Duplicate Validation
+- Source-to-Target Data Comparison
+
+## Future Enhancements
+
+- Incremental Load Validation
+- Data Type Validation
+- Primary Key Validation
+- HTML Reporting
+- PyTest Integration
+
 ## Author
 
 Abdulla
